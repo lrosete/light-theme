@@ -1,0 +1,24 @@
+body {
+  padding-top: 3rem;
+}
+
+.navbar{
+  margin-bottom: 0;
+  .navbar-brand{
+    font-size: 18px;
+  }
+}
+
+.showcase{
+  background: url(../img/showcase.jpg) no-repeat 0 -200px;
+  height: 600px;
+  padding: 30px 0;
+  h1{
+    font-size: 60px;
+  }
+  .container{
+    background: #fff;
+    opacity: 0.7;
+    padding: 20px 30px 30px 30px;
+  }
+}
