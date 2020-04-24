@@ -10,7 +10,18 @@
     <!-- SASS IMPORT-->
 
     <link rel="stylesheet" href="custom/app.css">
+<style>
 
+    .container-sm{
+      border: 1px solid red;
+    }
+    .container-md{
+      border: 1px solid green;
+    }
+      .container-lg{
+        border: 1px solid blue;
+      }
+</style>
 
   </head>
   <body>
@@ -40,6 +51,27 @@
   </div>
 </nav>
 
+<div class="container-sm">
+  <p>100% wide until small breakpoint</p>
+</div>
+<div class="container-md">
+  <p>100% wide until medium breakpoint</p>
+</div>
+<div class="container-lg">
+  <p>100% wide until large breakpoint</p>
+</div>
+
+<div class="container">
+
+  <div class="row justify-content-start">
+
+    <div class="col">column 1</div>
+    <div class="col">column 2</div>
+
+  </div>
+
+</div>
+
 <div class="showcase">
   <div class="container">
     <h1 class="page-title">Hello there.</h1>
@@ -49,6 +81,7 @@
     </p>
     <a href="about.html" class="btn btn-primary">Read More</a>
   </div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
